@@ -1,8 +1,8 @@
 @echo off
 setlocal
 
-set "image_url=https://media.discordapp.net/attachments/1255586330436440085/1255586347406856323/l2GmMgt0YvB1Er.png?ex=667dab68&is=667c59e8&hm=84871aab55d00ae8c95ec2e2033a90c5bae627b59c00dae71256e7b6a8440da8&=&format=webp&quality=lossless&width=710&height=754"
-set "image_path=%USERPROFILE%\Downloads\yougotmonke.jpg"
+set "image_url=https://pixeldrain.com/api/file/A3EMs6TR"
+set "image_path=%USERPROFILE%\Downloads\yougotmonke.png"
 
 if exist "%image_path%" (
   del "%image_path%"
